@@ -1,0 +1,103 @@
+/* Basic page setup */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  color: #222;
+  margin: 0;
+}
+
+/* Layout */
+
+header, nav, main, footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+/* Headings */
+
+h1 {
+  color: #003366;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #004080;
+  margin-top: 25px;
+}
+
+/* Navigation */
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #004080;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+}
+
+/* Form styling */
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 6px;
+  margin-top: 5px;
+  border: 1px solid #999999;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 10px;
+  background-color: #003366;
+  color: #ffffff;
+  border: none;
+}
+
+button:hover {
+  background-color: #002244;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #555555;
+}
+
+<!--
+AI Use Disclosure:
+Tool(s): ChatGPT (free version)
+Purpose: Helped explain how to line my text up and create a line. It suggested the color idea as well
+Human Role: I applied the explanation to my project situation, inserted the recommended CSS code, and modified the code to work on my page. -->
